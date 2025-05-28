@@ -35,7 +35,7 @@ function HomePage() {
   // Función para manejar los eventos de pulsación de tecla (keydown) y enviar datos a la API
   const handleKeyDown = useCallback(async (event) => {
     // Define las teclas de flecha que queremos registrar
-    const arrowKeys = ['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'];
+    const arrowKeys = ['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight']; 
 
     // Solo guarda si la tecla pulsada es una de las teclas de flecha
     if (!arrowKeys.includes(event.key)) {
