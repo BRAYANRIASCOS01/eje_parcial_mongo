@@ -1,7 +1,7 @@
 // src/app/api/users/route.js
 import { NextResponse } from "next/server";
 import { conectDB } from "../../libs/db"; // Asegúrate de que la ruta sea correcta
-import User from "../../models/User"; // ¡Importa tu modelo de usuario de Mongoose!
+import User from "../../models/user"; // ¡Importa tu modelo de usuario de Mongoose!
 
 /**
  * Maneja las solicitudes GET para obtener todos los usuarios.
